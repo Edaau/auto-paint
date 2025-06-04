@@ -76,5 +76,5 @@ This project is intended for personal and educational use only. No license has b
 
 ## Author
 
-Developed by **Eduardo Pinheiro** — Computer Science student at UERJ.
+Developed by **Eduardo Pinheiro** — Computer Science student at UERJ.<br>
 developed to my mother <3
