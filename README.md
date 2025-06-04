@@ -11,15 +11,25 @@
 3. The file will be automatically processed.
 4. A message will appear showing the name of the newly generated file.
 
+### Coloring Rules
+
+- The software **automatically creates a new column called `Status`** at the end of the spreadsheet.
+- For each row, the program checks the content of the **`Status`** cell:
+  - If it contains the letter **`s`** (case-insensitive, even with spaces), the entire row will be colored **pink**
+  - If it contains the letter **`t`**, the row will be colored **green**
+  - If it contains the letter **`d`**, the row will be colored **strong red**
+- Multiple rows can be colored differently depending on the letter found.
+- The status check is based **only on the `Status` column**, not on the other columns.
+
 ---
 
 ## Features
 
-- ✔️ Modern GUI built with `Tkinter`
-- ✔️ Drag and drop support using `tkinterdnd2`
-- ✔️ Custom window and taskbar icon
-- ✔️ Compatible with Excel and LibreOffice `.xlsx` files
-- ✔️ Bundled into a single executable using `PyInstaller`
+- Modern GUI built with `Tkinter`
+- Drag and drop support using `tkinterdnd2`
+- Custom window and taskbar icon
+- Compatible with Excel and LibreOffice `.xlsx` files
+- Bundled into a single executable using `PyInstaller`
 
 ---
 
